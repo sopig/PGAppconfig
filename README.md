@@ -3,21 +3,22 @@ a photoBrowser and camera and picker
 
 ##Useage
 
-```Swift
-/**
- *
- 使用方法：
- 
+ 使用方法:   
  
  TollyCameraViewController:
+```Swift 
+
  TollyCameraViewController *cameraVc = [[TollyCameraViewController alloc] init];
  // 打开相机 回调是ZLComplate block回调对象. 返回数组
  - (void)startCameraOrPhotoFileWithViewController:(UIViewController*)viewController complate : (ZLComplate ) complate;
  // 需要一个强引用的属性，引用它.
  self.cameraVc = cameraVc.
+ ```
  
  TollyPickerViewController:
- Note : (图片相册多选控制器)
+ Note : (图片相册多选控制器)  
+ 
+ ```swift
  创建控制器
  TollyPickerViewController *pickerVc = [[TollyPickerViewController alloc] init];
  // 默认显示相册里面的内容SavePhotos
@@ -29,13 +30,17 @@ a photoBrowser and camera and picker
  // 展示控制器
  [pickerVc show];
  
+ 
  第一种回调方法：- (void)pickerViewControllerDoneAsstes:(NSArray *)assets
  第二种回调方法pickerVc.callBack = ^(NSArray *assets){
  // TODO 回调结果，可以不用实现代理
  };
+ ```
  
  TollyPickerBrowserViewController:
  Note : (图片游览器)
+ 
+ ```swift
  创建控制器
  TollyPickerBrowserViewController *pickerBrowser = [[TollyPickerBrowserViewController alloc] init];
  // 传入点击imageView的话，会有微信朋友圈照片的风格
@@ -50,17 +55,20 @@ a photoBrowser and camera and picker
  pickerBrowser.currentPage = indexPath.row;
  // 展示控制器
  [pickerBrowser show];
+ ```
  
  数据源 ----- <TollyPickerBrowserViewControllerDataSource>
+```swift
     有多少组
     - (NSInteger) numberOfSectionInPhotosInPickerBrowser:(TollyPhotoPickerBrowserViewController *) pickerBrowser;
     每个组多少个图片
     - (NSInteger) photoBrowser:(TollyPhotoPickerBrowserViewController *)photoBrowser numberOfItemsInSection:(NSUInteger)section;
     每个对应的IndexPath展示什么内容
     - (TollyPhotoPickerBrowserPhoto *)photoBrowser:(TollyPhotoPickerBrowserViewController *)pickerBrowser photoAtIndexPath:(NSIndexPath *)indexPath;
-
+```
  
- 代理 ----- <TollyPickerBrowserViewControllerDelegate>
+ 代理 ----- <TollyPickerBrowserViewControllerDelegate>  
+```swift
     返回用户自定义的toolBarView(类似tableView FooterView)
     - (TollyPhotoPickerCustomToolBarView *)photoBrowserShowToolBarViewWithphotoBrowser:(TollyPhotoPickerBrowserViewController *)photoBrowser;
     准备删除那个图片
@@ -72,5 +80,5 @@ a photoBrowser and camera and picker
     滑动开始的页数
     - (void)photoBrowser:(TollyPhotoPickerBrowserViewController *)photoBrowser willCurrentPage:(NSUInteger)page;
  
- */
-```
+ ```
+
