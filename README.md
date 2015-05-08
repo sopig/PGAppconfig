@@ -57,7 +57,7 @@ a photoBrowser and camera and picker
  [pickerBrowser show];
  ```
  
- 数据源 ----- <TollyPickerBrowserViewControllerDataSource>
+ 数据源 ----- `TollyPickerBrowserViewControllerDataSource`
 ```swift
     有多少组
     - (NSInteger) numberOfSectionInPhotosInPickerBrowser:(TollyPhotoPickerBrowserViewController *) pickerBrowser;
@@ -67,7 +67,7 @@ a photoBrowser and camera and picker
     - (TollyPhotoPickerBrowserPhoto *)photoBrowser:(TollyPhotoPickerBrowserViewController *)pickerBrowser photoAtIndexPath:(NSIndexPath *)indexPath;
 ```
  
- 代理 ----- <TollyPickerBrowserViewControllerDelegate>  
+ 代理 ----- `TollyPickerBrowserViewControllerDelegate`  
 ```swift
     返回用户自定义的toolBarView(类似tableView FooterView)
     - (TollyPhotoPickerCustomToolBarView *)photoBrowserShowToolBarViewWithphotoBrowser:(TollyPhotoPickerBrowserViewController *)photoBrowser;
