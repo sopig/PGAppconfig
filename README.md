@@ -9,8 +9,8 @@ a photoBrowser and camera and picker
 ```Swift 
 
  TollyCameraViewController *cameraVc = [[TollyCameraViewController alloc] init];
- // 打开相机 回调是ZLComplate block回调对象. 返回数组
- - (void)startCameraOrPhotoFileWithViewController:(UIViewController*)viewController complate : (ZLComplate ) complate;
+ // 打开相机 回调是TollyComplate block回调对象. 返回数组
+ - (void)startCameraOrPhotoFileWithViewController:(UIViewController*)viewController complate : (TollyComplate ) complate;
  // 需要一个强引用的属性，引用它.
  self.cameraVc = cameraVc.
  ```
