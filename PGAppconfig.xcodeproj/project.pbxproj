@@ -13,10 +13,9 @@
 		A573F07E1CC75A9800472441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A573F07C1CC75A9800472441 /* Main.storyboard */; };
 		A573F0801CC75A9800472441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A573F07F1CC75A9800472441 /* Assets.xcassets */; };
 		A573F0831CC75A9800472441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A573F0811CC75A9800472441 /* LaunchScreen.storyboard */; };
-		A573F0931CC75ADC00472441 /* JXAppconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A573F08C1CC75ADC00472441 /* JXAppconfig.plist */; };
-		A573F0941CC75ADC00472441 /* JXAppconfigPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F08E1CC75ADC00472441 /* JXAppconfigPlist.m */; };
-		A573F0951CC75ADC00472441 /* JXAppConfigSurport.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0901CC75ADC00472441 /* JXAppConfigSurport.m */; };
-		A573F0961CC75ADC00472441 /* JXAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0921CC75ADC00472441 /* JXAppContext.m */; };
+		A573F09E1CC75FD200472441 /* JXAppconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A573F0971CC75FD200472441 /* JXAppconfig.plist */; };
+		A573F09F1CC75FD200472441 /* JXAppConfigSurport.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F0981CC75FD200472441 /* JXAppConfigSurport.m */; };
+		A573F0A11CC75FD200472441 /* JXAppconfigPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = A573F09A1CC75FD200472441 /* JXAppconfigPlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,13 +29,11 @@
 		A573F07F1CC75A9800472441 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A573F0821CC75A9800472441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A573F0841CC75A9800472441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A573F08C1CC75ADC00472441 /* JXAppconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JXAppconfig.plist; sourceTree = "<group>"; };
-		A573F08D1CC75ADC00472441 /* JXAppconfigPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAppconfigPlist.h; sourceTree = "<group>"; };
-		A573F08E1CC75ADC00472441 /* JXAppconfigPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAppconfigPlist.m; sourceTree = "<group>"; };
-		A573F08F1CC75ADC00472441 /* JXAppConfigSurport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAppConfigSurport.h; sourceTree = "<group>"; };
-		A573F0901CC75ADC00472441 /* JXAppConfigSurport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAppConfigSurport.m; sourceTree = "<group>"; };
-		A573F0911CC75ADC00472441 /* JXAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAppContext.h; sourceTree = "<group>"; };
-		A573F0921CC75ADC00472441 /* JXAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAppContext.m; sourceTree = "<group>"; };
+		A573F0971CC75FD200472441 /* JXAppconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JXAppconfig.plist; sourceTree = "<group>"; };
+		A573F0981CC75FD200472441 /* JXAppConfigSurport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAppConfigSurport.m; sourceTree = "<group>"; };
+		A573F09A1CC75FD200472441 /* JXAppconfigPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAppconfigPlist.m; sourceTree = "<group>"; };
+		A573F09B1CC75FD200472441 /* JXAppconfigPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAppconfigPlist.h; sourceTree = "<group>"; };
+		A573F09C1CC75FD200472441 /* JXAppConfigSurport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAppConfigSurport.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,23 +91,13 @@
 		A573F08A1CC75ADC00472441 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A573F08B1CC75ADC00472441 /* Appconfig */,
+				A573F0971CC75FD200472441 /* JXAppconfig.plist */,
+				A573F0981CC75FD200472441 /* JXAppConfigSurport.m */,
+				A573F09A1CC75FD200472441 /* JXAppconfigPlist.m */,
+				A573F09B1CC75FD200472441 /* JXAppconfigPlist.h */,
+				A573F09C1CC75FD200472441 /* JXAppConfigSurport.h */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		A573F08B1CC75ADC00472441 /* Appconfig */ = {
-			isa = PBXGroup;
-			children = (
-				A573F08C1CC75ADC00472441 /* JXAppconfig.plist */,
-				A573F08D1CC75ADC00472441 /* JXAppconfigPlist.h */,
-				A573F08E1CC75ADC00472441 /* JXAppconfigPlist.m */,
-				A573F08F1CC75ADC00472441 /* JXAppConfigSurport.h */,
-				A573F0901CC75ADC00472441 /* JXAppConfigSurport.m */,
-				A573F0911CC75ADC00472441 /* JXAppContext.h */,
-				A573F0921CC75ADC00472441 /* JXAppContext.m */,
-			);
-			path = Appconfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A573F0931CC75ADC00472441 /* JXAppconfig.plist in Resources */,
+				A573F09E1CC75FD200472441 /* JXAppconfig.plist in Resources */,
 				A573F0831CC75A9800472441 /* LaunchScreen.storyboard in Resources */,
 				A573F0801CC75A9800472441 /* Assets.xcassets in Resources */,
 				A573F07E1CC75A9800472441 /* Main.storyboard in Resources */,
@@ -185,11 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A573F07B1CC75A9800472441 /* ViewController.m in Sources */,
-				A573F0951CC75ADC00472441 /* JXAppConfigSurport.m in Sources */,
 				A573F0781CC75A9800472441 /* AppDelegate.m in Sources */,
-				A573F0961CC75ADC00472441 /* JXAppContext.m in Sources */,
-				A573F0941CC75ADC00472441 /* JXAppconfigPlist.m in Sources */,
+				A573F0A11CC75FD200472441 /* JXAppconfigPlist.m in Sources */,
 				A573F0751CC75A9800472441 /* main.m in Sources */,
+				A573F09F1CC75FD200472441 /* JXAppConfigSurport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +322,7 @@
 				A573F0891CC75A9800472441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
