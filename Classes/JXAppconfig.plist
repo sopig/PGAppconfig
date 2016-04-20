@@ -70,19 +70,19 @@
 		<key>description</key>
 		<string>生产【product】</string>
 		<key>JXBASE_URL_JIUZHANG</key>
-		<string>http://shu.jiuxian.com</string>
+		<string>http://shu.jiuxian.com/</string>
 		<key>JXBASE_URL_HOME</key>
-		<string>http://apphome.jiuxian.com</string>
+		<string>http://apphome.jiuxian.com/</string>
 		<key>JXBASE_URL_OMS</key>
-		<string>http://appoms.jiuxian.com</string>
+		<string>http://appoms.jiuxian.com/</string>
 		<key>JXBASE_URL_PRODUCT</key>
-		<string>http://appproduct.jiuxian.com</string>
+		<string>http://appproduct.jiuxian.com/</string>
 		<key>JXBASE_URL_PROMOTION</key>
-		<string>http://apppromotion.jiuxian.com</string>
+		<string>http://apppromotion.jiuxian.com/</string>
 		<key>JXBASE_URL_USER</key>
-		<string>http://appuser.jiuxian.com</string>
+		<string>http://appuser.jiuxian.com/</string>
 		<key>JXBASE_URL_PAY</key>
-		<string>http://apppromotion.jiuxian.com</string>
+		<string>http://apppromotion.jiuxian.com/</string>
 		<key>isENCRPTY</key>
 		<true/>
 	</dict>

@@ -92,10 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				A573F0971CC75FD200472441 /* JXAppconfig.plist */,
+				A573F09C1CC75FD200472441 /* JXAppConfigSurport.h */,
 				A573F0981CC75FD200472441 /* JXAppConfigSurport.m */,
 				A573F09A1CC75FD200472441 /* JXAppconfigPlist.m */,
 				A573F09B1CC75FD200472441 /* JXAppconfigPlist.h */,
-				A573F09C1CC75FD200472441 /* JXAppConfigSurport.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

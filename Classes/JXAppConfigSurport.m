@@ -9,7 +9,7 @@
 #import "JXAppconfigPlist.h"
 #import "JXAppConfigSurport.h"
 
-NSString *const JXHOSTDOMAIN = @"com.jiuxian.hostDomain";
+NSString *const JXHOSTDOMAIN = @"com.Debugtool.hostdomain";
 
 @interface JXAppConfigSurport ()
 
