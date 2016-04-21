@@ -20,6 +20,8 @@
 		<string>http://testappuser.jiuxian.com/</string>
 		<key>JXBASE_URL_PAY</key>
 		<string>http://testapppromotion.jiuxian.com/</string>
+		<key>JXBASE_URL_FORUM</key>
+		<string>http://192.168.6.204:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<true/>
 	</dict>
@@ -41,6 +43,8 @@
 		<string>http://192.168.6.202:8050/JXUser/</string>
 		<key>JXBASE_URL_PAY</key>
 		<string>http://192.168.6.202:8040/app-promotion/</string>
+		<key>JXBASE_URL_FORUM</key>
+		<string>http://192.168.6.204:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<false/>
 	</dict>
@@ -62,6 +66,8 @@
 		<string>http://192.168.6.201:8050/JXUser/</string>
 		<key>JXBASE_URL_PAY</key>
 		<string>http://192.168.6.201:8040/app-promotion/</string>
+		<key>JXBASE_URL_FORUM</key>
+		<string>http://192.168.6.204:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<false/>
 	</dict>
@@ -83,6 +89,8 @@
 		<string>http://appuser.jiuxian.com/</string>
 		<key>JXBASE_URL_PAY</key>
 		<string>http://apppromotion.jiuxian.com/</string>
+		<key>JXBASE_URL_FORUM</key>
+		<string>http://192.168.6.204:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<true/>
 	</dict>
@@ -104,6 +112,8 @@
 		<string>http://192.168.18.235:8010/JXUser/</string>
 		<key>JXBASE_URL_PAY</key>
 		<string>http://192.168.18.234:8010/JXPromotion/</string>
+		<key>JXBASE_URL_FORUM</key>
+		<string>http://192.168.6.204:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<true/>
 	</dict>
@@ -125,6 +135,8 @@
 		<string>http://192.168.6.200:8010/JXUser/</string>
 		<key>JXBASE_URL_PAY</key>
 		<string>http://192.168.6.200:8010/JXPromotion/</string>
+		<key>JXBASE_URL_FORUM</key>
+		<string>http://192.168.6.204:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<false/>
 	</dict>
