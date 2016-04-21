@@ -107,7 +107,7 @@
 		<key>JXBASE_URL_PRODUCT</key>
 		<string>http://192.168.18.233:8010/JXProduct/</string>
 		<key>JXBASE_URL_PROMOTION</key>
-		<string>http://192.168.18.234:8010/app-promotion</string>
+		<string>http://192.168.18.234:8010/app-promotion/</string>
 		<key>JXBASE_URL_USER</key>
 		<string>http://192.168.18.235:8010/JXUser/</string>
 		<key>JXBASE_URL_PAY</key>
