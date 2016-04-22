@@ -97,7 +97,7 @@
 	<key>server_gray</key>
 	<dict>
 		<key>description</key>
-		<string>预发【Pre_Release】</string>
+		<string>预发【Pre-Release】</string>
 		<key>JXBASE_URL_JIUZHANG</key>
 		<string>http://shu.jiuxian.com/</string>
 		<key>JXBASE_URL_HOME</key>
