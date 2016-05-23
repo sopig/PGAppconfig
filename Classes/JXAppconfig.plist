@@ -122,21 +122,21 @@
 		<key>description</key>
 		<string>MOCK【mock】</string>
 		<key>JXBASE_URL_JIUZHANG</key>
-		<string>http://192.168.5.5:8010/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>JXBASE_URL_HOME</key>
-		<string>http://192.168.6.200:8010/JXHome/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>JXBASE_URL_OMS</key>
-		<string>http://192.168.6.200:8010/JXOms/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>JXBASE_URL_PRODUCT</key>
-		<string>http://192.168.6.200:8010/JXProduct/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>JXBASE_URL_PROMOTION</key>
-		<string>http://192.168.6.200:8010/JXPromotion/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>JXBASE_URL_USER</key>
-		<string>http://192.168.6.200:8010/JXUser/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>JXBASE_URL_PAY</key>
-		<string>http://192.168.6.200:8010/JXPromotion/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>JXBASE_URL_FORUM</key>
-		<string>http://192.168.6.204:8020/JXCommunity/</string>
+		<string>http://192.168.5.115:8080/mockjs/2/</string>
 		<key>isENCRPTY</key>
 		<false/>
 	</dict>
