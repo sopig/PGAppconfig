@@ -44,7 +44,7 @@
 		<key>JXBASE_URL_PAY</key>
 		<string>http://192.168.6.202:8040/app-promotion/</string>
 		<key>JXBASE_URL_FORUM</key>
-		<string>http://192.168.6.204:8020/JXCommunity/</string>
+		<string>http://192.168.6.205:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<false/>
 	</dict>
