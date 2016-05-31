@@ -113,7 +113,7 @@
 		<key>JXBASE_URL_PAY</key>
 		<string>http://192.168.18.234:8010/app-promotion/</string>
 		<key>JXBASE_URL_FORUM</key>
-		<string>http://192.168.6.204:8020/JXCommunity/</string>
+		<string>http://192.168.13.161:8020/JXCommunity/</string>
 		<key>isENCRPTY</key>
 		<true/>
 	</dict>
