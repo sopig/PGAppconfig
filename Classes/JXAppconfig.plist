@@ -23,7 +23,7 @@
 		<key>JXBASE_URL_FORUM</key>
 		<string>http://community.jiuxian.com/</string>
 		<key>JXBASE_URL_COMMENT</key>
-		<string></string>
+		<string>http://content.jiuxian.com/</string>
 		<key>isENCRPTY</key>
 		<true/>
 	</dict>
@@ -98,7 +98,7 @@
 		<key>JXBASE_URL_FORUM</key>
 		<string>http://community.jiuxian.com/</string>
 		<key>JXBASE_URL_COMMENT</key>
-		<string></string>
+		<string>http://content.jiuxian.com/</string>
 		<key>isENCRPTY</key>
 		<true/>
 	</dict>
