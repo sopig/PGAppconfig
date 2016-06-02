@@ -21,7 +21,7 @@
 		<key>JXBASE_URL_PAY</key>
 		<string>http://testapppromotion.jiuxian.com/</string>
 		<key>JXBASE_URL_FORUM</key>
-		<string>http://192.168.6.204:8020/JXCommunity/</string>
+		<string>http://community.jiuxian.com/JXCommunity/</string>
 		<key>JXBASE_URL_COMMENT</key>
 		<string></string>
 		<key>isENCRPTY</key>
