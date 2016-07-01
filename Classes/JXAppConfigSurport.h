@@ -16,7 +16,8 @@ typedef NS_ENUM(NSInteger, JXAPISERVICETYPE) {
     JXAPISERVICE_GRAY,
     JXAPISERVICE_ONLINE,
     JXAPISERVICE_TEST,
-    JXAPISERVICE_reserve
+    JXAPISERVICE_reserve,
+    JXAPISERVICE_Extension
 };
 
 @interface JXAppConfigSurport : NSObject

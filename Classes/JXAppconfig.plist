@@ -152,5 +152,30 @@
 		<key>isENCRPTY</key>
 		<false/>
 	</dict>
+	<key>server_extension</key>
+	<dict>
+		<key>description</key>
+		<string>测试2 【QA2】</string>
+		<key>JXBASE_URL_JIUZHANG</key>
+		<string>http://192.168.5.5:8010/jxclick_collect/</string>
+		<key>JXBASE_URL_HOME</key>
+		<string>http://192.168.5.137:8020/JXHome/</string>
+		<key>JXBASE_URL_OMS</key>
+		<string>http://192.168.5.138:8010/app-oms/</string>
+		<key>JXBASE_URL_PRODUCT</key>
+		<string>http://192.168.5.137:8030/JXProduct/</string>
+		<key>JXBASE_URL_PROMOTION</key>
+		<string>http://192.168.5.138:8020/app-promotion/</string>
+		<key>JXBASE_URL_USER</key>
+		<string>http://192.168.5.137:8040/JXUser/</string>
+		<key>JXBASE_URL_PAY</key>
+		<string>http://192.168.5.138:8020/app-promotion/</string>
+		<key>JXBASE_URL_FORUM</key>
+		<string>http://192.168.6.205:8020/JXCommunity/</string>
+		<key>JXBASE_URL_COMMENT</key>
+		<string>http://192.168.5.144:8040/JXContent/</string>
+		<key>isENCRPTY</key>
+		<false/>
+	</dict>
 </dict>
 </plist>

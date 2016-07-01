@@ -19,6 +19,8 @@ NSString *const JXHOSTDOMAIN = @"com.Debugtool.hostdomain";
 @property(nonnull, nonatomic, strong) NSDictionary *config_online;
 @property(nonnull, nonatomic, strong) NSDictionary *config_test;
 @property(nonnull, nonatomic, strong) NSDictionary *config_reserve;
+@property(nonnull, nonatomic, strong) NSDictionary *config_extension;
+
 
 @end
 
@@ -78,6 +80,13 @@ NSString *const JXHOSTDOMAIN = @"com.Debugtool.hostdomain";
     return _config_reserve;
 }
 
+- (NSDictionary *)config_extension {
+    if (!_config_extension) {
+        _config_extension = [NSDictionary dictionaryWithContentsOfFile:[JXAppconfigPlist loadPlists][0]][@"server_extension"];
+    }
+    return _config_extension;
+}
+
 
 - (void)setDefaultHostDomain {
     if (![[NSUserDefaults standardUserDefaults] valueForKey:JXHOSTDOMAIN]) {
@@ -117,6 +126,11 @@ NSString *const JXHOSTDOMAIN = @"com.Debugtool.hostdomain";
             
         case JXAPISERVICE_reserve: {
             return self.config_reserve;
+            
+        }
+            break;
+        case JXAPISERVICE_Extension: {
+            return self.config_extension;
             
         }
             break;
